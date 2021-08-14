@@ -111,7 +111,8 @@ Authentication with a security key is *secondary* to authentication with a TOTP 
 
 1. You must have already configured 2FA via a TOTP mobile app{% ifversion fpt %} or via SMS{% endif %}.
 2. Ensure that you have a WebAuthn compatible security key inserted into your computer.
-{% data reusables.user_settings.access_settings %}
+{% data reusables.user_settings
+.access_settings %}
 {% data reusables.user_settings.security %}
 5. Next to "Security keys", click **Add**.
   ![Add security keys option](/assets/images/help/2fa/add-security-keys-option.png)
